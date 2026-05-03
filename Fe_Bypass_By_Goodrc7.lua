@@ -1090,12 +1090,16 @@ local function YPLY_fake_script() -- Execute.LocalScript
 
 	script.Parent.MouseButton1Click:Connect(function()
 		if script.Parent.Parent.size.CMDBox.Text == "require(6032524768).Eagle('"..game.Players.LocalPlayer.Name.."')" then
-			loadstring(game:HttpGet(('https://raw.githubusercontent.com/rusello25/scripts/main/c00lgui%20reimagined'),true))()
+	--[[
+	WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
+]]
+loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-RoXploit-by-KrystalTeam-9328"),true))()
 		elseif script.Parent.Parent.size.CMDBox.Text == "require(9sxf7TVz)('"..game.Players.LocalPlayer.Name.."')" then
 			loadstring(game:HttpGet(('https://pastebin.com/raw/9sxf7TVz'),true))()
 		elseif script.Parent.Parent.size.CMDBox.Text == "require(7624679472)('"..game.Players.LocalPlayer.Name.."')" then
-			loadstring(game:HttpGet(('https://raw.githubusercontent.com/rusello25/scripts/main/IY%20Admin'),true))()
-		elseif script.Parent.Parent.size.CMDBox.Text == "require(0x31051dacc).v2FIXED('"..game.Players.LocalPlayer.Name.."')" then
+			loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+		elseif 
+	script.Parent.Parent.size.CMDBox.Text == "require(0x31051dacc).v2FIXED('"..game.Players.LocalPlayer.Name.."')" then
 			loadstring(game:HttpGet(('https://raw.githubusercontent.com/rusello25/scripts/main/k00pgui'),true))()
 		elseif script.Parent.Parent.size.CMDBox.Text == "require(4159766103).load('"..game.Players.LocalPlayer.Name.."')" then
 			loadstring(game:HttpGet(('https://raw.githubusercontent.com/rusello25/scripts/main/Ro-Xploit'),true))()
